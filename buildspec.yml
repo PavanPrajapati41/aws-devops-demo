@@ -1,0 +1,12 @@
+version: 0.2
+
+phases:
+  build:
+    commands:
+      - echo "Building AWS DevOps Demo"
+      - test -f index.html
+      - echo "Website validation successful"
+
+artifacts:
+  files:
+    - index.html
